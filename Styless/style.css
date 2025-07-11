@@ -1,0 +1,334 @@
+.raleway-SignUp {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+ 
+}
+
+
+.inter-Logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body {
+    background: rgba(245, 248, 255, 1);
+}
+
+.secendary-bg {
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
+.white-bg {
+    background-color: rgb(255, 255, 255);
+     padding: 80px 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* main styles*/
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+
+
+ /* button style */
+ .btn-primary {
+    background-color: rgba(78, 71, 255, 1);
+    font-family: Raleway;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+.btn-primary:hover {
+    background-color: #ffee00;
+    color: rgb(44, 42, 42);
+
+}
+.section-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+
+.section-description {
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(37, 36, 50, 0.5);
+
+}
+
+
+.header {
+    background-image: url('../images/Hero-bg.png');
+    display: flex;
+    flex-direction: column;
+    height: 698px;
+    weight: 1440px
+}
+
+
+ /* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 34px;
+    color: rgba(78, 71, 255, 1);
+}
+
+ /* Banner Style */
+.banner {
+    display: flex;
+    justify-content:center;
+    align-items:center;   
+}
+
+ .banner-title{
+    font-size: 65px;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+ }
+
+ .button-wrapper{
+    display: flex;
+    justify-content: center;
+ }
+
+ .action{
+    padding: 130px 50px;
+ }
+
+.action-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 55px 0 55px;
+}
+
+ .mini-web {
+    border-radius: 48px;
+ }
+
+ .productive-users-section {
+    border-radius: 24px;
+    /* padding: 30px 60px; */
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+   justify-content: center;  
+ }
+
+ .productive-users-container {
+    padding: 40px 30px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+ }
+
+.user-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user-item .number {
+    font-family: inter;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+}
+
+.user-item .label {
+    font-family: inter;
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    margin-top: 5px;
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 120px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  margin-bottom: 10px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.testimonial-card h3 {
+  margin: 0 0 10px;
+  font-size: 25px;
+  color: #222;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer strong {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+.date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+.focus-section {
+     border-radius: 24px;
+     text-align: center;
+     padding: 60px 20px;
+     display: flex;
+     justify-content: center; 
+     margin: 50px auto;
+   
+}
+
+.focus-button {
+  padding: 12px 25px;    
+  margin-bottom: 40px;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 32px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-container  {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 40px;
+}
+
+.contact-text h1 {
+    font-size: 97px;
+    font-weight: bold;
+    color: #111;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+    width: 550px;
+}
+.contact-form label {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+
+.footer {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    
+}
+
+.footer-logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: rgba(78, 71, 255, 1);
+}
+
+.footer-description { 
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(137, 135, 161, 1);
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    font-weight: 500;
+    color: #7d7d7d;
+    text-decoration: none;
+    font-size:20px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #5c6ef8;
+}
